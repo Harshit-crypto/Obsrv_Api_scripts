@@ -3,7 +3,6 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Optional Steps](#optional-steps)
@@ -21,14 +20,14 @@ This README will guide you through the setup and configuration process. Follow t
 ## Configuration
 
  **Configure Tables for Datasets and Datasources**: Use the provided SQL files to set up the necessary database tables.
-    - Execute `datasetTable_postgres.sql` to configure the tables for datasets.
-    - Execute `datasourceTable_postgres.sql` to configure the tables for datasources.
+   -  `datasetTable_postgres.sql` to configure the tables for datasets.
+   -  `datasourceTable_postgres.sql` to configure the tables for datasources.
 
  **Configure Telemetry and Summary Datasets/Datasources**: Use the provided JSON files to configure Telemetry and Summary datasets and datasources using the datasets and datasource endpoints of the API 
-    - Execute `telemetry_dataset_config.json` to configure Telemetry datasets.
-    - Execute `summary_dataset_config.json` to configure Summary datasets.
-    - Execute `telemetry_datasource_config.json` to configure Telemetry datasources.
-    - Execute `summary_datasource_config.json` to configure Summary datasources.
+   -  `telemetry_dataset_config.json` to configure Telemetry datasets.
+   -  `summary_dataset_config.json` to configure Summary datasets.
+   -  `telemetry_datasource_config.json` to configure Telemetry datasources.
+   -  `summary_datasource_config.json` to configure Summary datasources.
 
 ## Usage
 
